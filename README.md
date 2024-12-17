@@ -85,7 +85,9 @@ Le damos permisos a nuestra aplicación modificando y reemplazamos el contenido 
 
 Modificamos el archivo “app.module.ts”
 
-
+/*
+Copiar en el archivo app.module.ts
+*/
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptModule } from '@nativescript/angular';
 import { NativeScriptUISideDrawerModule } from 'nativescript-ui-sidedrawer/angular';
@@ -112,6 +114,10 @@ import { CameraComponent } from './camera/camera.component'; // Importa tu Camer
 export class AppModule {}
 
 Tambien Reemplazamos el contenido de “camera.component.ts”
+
+/*
+Copiar en el archivo app.module.ts
+*/
 import { Component } from '@angular/core';
 import { takePicture, requestPermissions } from "@nativescript/camera";
 import { ImageSource } from "@nativescript/core";
