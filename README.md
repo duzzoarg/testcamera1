@@ -21,7 +21,8 @@ ns migrate
 
 
 Luego creamos una carpeta llamada camera en src/app/camera
-y dentro 2 archivos 
+y dentro creamos 2 archivos 
+
 
 camera.component.html
 camera.component.ts
